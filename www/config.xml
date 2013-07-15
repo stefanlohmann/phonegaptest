@@ -9,7 +9,7 @@
         id        = "de.formans.myGeoRef"
         version   = "0.0.1">
 
-    <name>PcCaddieOnline</name>
+    <name>myGeoRef</name>
 
     <description>
         A simple Application to get my GeoRefData.
