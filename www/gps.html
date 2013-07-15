@@ -14,11 +14,12 @@
         var enableHighAccuracy = false;
         var timeOut = 60000;
         var runningTime;
+
         // device APIs are available
         //
         function onDeviceReady() {
 //            navigator.geolocation.getCurrentPosition(onSuccess, onError);
-            runningtime = new(time(now()));
+            runningTime = new(time(now()));
             navigator.geolocation.getCurrentPosition(onSuccess, onError, { maximumAge: 60000, timeout: timeOut, enableHighAccuracy: enableHighAccuracy } );
         }
 
