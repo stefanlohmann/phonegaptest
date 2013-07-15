@@ -1,0 +1,23 @@
+# Einfacher DateiPfad:
+# irgendwie/unerwuenscht.txt
+#
+# Verzeichnisse werden mit einem "/" abgeschlossen
+# automaticly/generated/
+#
+# Dateitypen als glob-Ausdrücke
+# *.bak
+#
+# "!" markiert Ausnahmen. "!demo.bak" wird versioniert, obwohl "*.bak" ausgeschlossen wurde
+# !demo.bak
+
+###  phpStorm
+.idea/
+
+###  Phonegap / Cordova
+.settings/
+*.zip
+# *.png
+# gps.html
+main.html
+cordova.js
+pccoa*
